@@ -1,4 +1,4 @@
-[![R 3.5.2](https://img.shields.io/badge/R-%203.5.2-blue)](https://www.r-project.org/)
+[![R 3.5.2](https://img.shields.io/badge/R-3.5.2-blue.svg)](https://www.r-project.org/)
 
 # Covid-19 sandbox
 
