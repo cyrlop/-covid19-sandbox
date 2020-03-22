@@ -1,7 +1,7 @@
 library("ggplot2")
 
 
-deaths.data <- read.csv(file="./COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv")
+deaths.data <- read.csv(file="../COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv")
 
 
 death_fr = subset(deaths.data, Country.Region == "France" & Province.State == "France", select=c(5:ncol(deaths.data)))
