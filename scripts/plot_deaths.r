@@ -13,14 +13,9 @@ death_fr$Date <- sub("X", "", rownames(death_fr))
 death_fr$Date <- as.Date(death_fr$Date, "%m.%d.%y")
 
 
-p <- ggplot(data=death_fr, aes(y=Deaths, x=Date))
-
-#P + geom_line()
-p1 <- p + geom_bar(stat="identity")
-
-
 png("Death_FR_test.png")
 p <- ggplot(data=death_fr, aes(y=Deaths, x=Date))
+#p1 <- p + geom_line()
 p1 <- p + geom_bar(stat="identity")
 print(p1)
 dev.off()
