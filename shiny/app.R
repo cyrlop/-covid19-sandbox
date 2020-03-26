@@ -2,7 +2,7 @@ library(shiny)
 library("ggplot2")
 
 # Load CSSE deaths data
-deaths.data <- read.csv(file="../COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv")
+deaths.data <- read.csv(file="../COVID-19/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv")
 
 
 # Filter data by country
